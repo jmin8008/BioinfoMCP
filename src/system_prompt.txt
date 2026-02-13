@@ -61,7 +61,7 @@ def {tool_name}(
 Additional Constraints
 1. NEVER use **kwargs
 2. NEVER use None as a default for non-optional int, float, or bool
-3. NO NEED to import mcp
+3. ALWAYS start the code with `from fastmcp import FastMCP` and `mcp = FastMCP()`, and ALWAYS end the code with `if __name__ == '__main__': mcp.run()`. NEVER create a dummy/mock mcp class.
 4. ALWAYS write type-safe and validated parameters
 5. ONE Python function per subcommand/internal tool
 6. INCLUDE helpful docstrings for every MCP tool

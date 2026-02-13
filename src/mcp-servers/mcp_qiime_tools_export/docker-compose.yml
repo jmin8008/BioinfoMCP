@@ -1,0 +1,22 @@
+version: '3.8'
+
+services:
+  mcp-qiime_tools_export:
+    build: .
+    image: mcp-qiime_tools_export:latest
+    container_name: mcp-qiime_tools_export
+    ports:
+      - "8000:8000"
+    environment:
+      - MCP_SERVER_NAME=qiime_tools_export
+    volumes:
+      - ./workspace:/app/workspace
+      - ./output:/app/output
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "python", "-c", "import sys; sys.exit(0)"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 5s
+    

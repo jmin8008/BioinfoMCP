@@ -50,6 +50,17 @@ class BioinfoMCP():
             self.client = OpenAI(
                 api_key=openai_api_key
             )
+
+        elif model == "gemini":
+            from openai import OpenAI
+            # Load Environment Keys
+            gemini_api_key = os.getenv('GEMINI_API_KEY')
+            # Use Gemini's OpenAI-compatible endpoint
+            self.client = OpenAI(
+                api_key=gemini_api_key,
+                base_url="https://generativelanguage.googleapis.com/v1beta/openai/"
+            )
+
         print(f"Succesfully created a {self.api_model_name} model")
         
         
@@ -133,7 +144,7 @@ Parse the Input parameters correctly, follow the MCP best practices, and provide
 
         """
         response = self.client.chat.completions.create(
-            message=[
+            messages=[
                 {
                     "role" : "system",
                     "content": [{"type": "text", "text": self.sys_prompt}],

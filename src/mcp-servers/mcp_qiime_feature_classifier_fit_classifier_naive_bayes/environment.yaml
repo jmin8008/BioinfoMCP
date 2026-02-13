@@ -1,0 +1,10 @@
+
+name: mcp-tool
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - qiime_feature_classifier_fit_classifier_naive_bayes
+  - python=3.10
+    

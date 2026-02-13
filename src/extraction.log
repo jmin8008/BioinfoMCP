@@ -1,0 +1,1464 @@
+nohup: ignoring input
+Starting QIIME 2 MCP Generation...
+Processing: Core Framework...
+Server path mcp-servers/mcp_qiime_tools_import
+Succesfully created a gemini-2.5-pro model
+generate2
+Generated requirements.txt using pipreqs
+Generated environment.yaml using pipreqs
+Add the following onto your Claude Configuration json file to run the MCP server:
+====================
+{
+  "mcpServers": {
+    "qiime_tools_import": {
+      "command": "docker",
+      "args": [
+        "run",
+        "--rm",
+        "-i",
+        "-v",
+        "/local/path/qiime_tools_import/data:/app/workspace",
+        "qiime_tools_import-mcp-server:latest"
+      ]
+    }
+  }
+}
+====================
+Server path mcp-servers/mcp_qiime_tools_export
+Succesfully created a gemini-2.5-pro model
+generate2
+Generated requirements.txt using pipreqs
+Generated environment.yaml using pipreqs
+Add the following onto your Claude Configuration json file to run the MCP server:
+====================
+{
+  "mcpServers": {
+    "qiime_tools_export": {
+      "command": "docker",
+      "args": [
+        "run",
+        "--rm",
+        "-i",
+        "-v",
+        "/local/path/qiime_tools_export/data:/app/workspace",
+        "qiime_tools_export-mcp-server:latest"
+      ]
+    }
+  }
+}
+====================
+Server path mcp-servers/mcp_qiime_tools_extract
+Succesfully created a gemini-2.5-pro model
+Generated requirements.txt using pipreqs
+Generated environment.yaml using pipreqs
+Add the following onto your Claude Configuration json file to run the MCP server:
+====================
+{
+  "mcpServers": {
+    "qiime_tools_extract": {
+      "command": "docker",
+      "args": [
+        "run",
+        "--rm",
+        "-i",
+        "-v",
+        "/local/path/qiime_tools_extract/data:/app/workspace",
+        "qiime_tools_extract-mcp-server:latest"
+      ]
+    }
+  }
+}
+====================
+Server path mcp-servers/mcp_qiime_tools_view
+Succesfully created a gemini-2.5-pro model
+generate2
+Generated requirements.txt using pipreqs
+Generated environment.yaml using pipreqs
+Add the following onto your Claude Configuration json file to run the MCP server:
+====================
+{
+  "mcpServers": {
+    "qiime_tools_view": {
+      "command": "docker",
+      "args": [
+        "run",
+        "--rm",
+        "-i",
+        "-v",
+        "/local/path/qiime_tools_view/data:/app/workspace",
+        "qiime_tools_view-mcp-server:latest"
+      ]
+    }
+  }
+}
+====================
+Server path mcp-servers/mcp_qiime_tools_peek
+Succesfully created a gemini-2.5-pro model
+Generated requirements.txt using pipreqs
+Generated environment.yaml using pipreqs
+Add the following onto your Claude Configuration json file to run the MCP server:
+====================
+{
+  "mcpServers": {
+    "qiime_tools_peek": {
+      "command": "docker",
+      "args": [
+        "run",
+        "--rm",
+        "-i",
+        "-v",
+        "/local/path/qiime_tools_peek/data:/app/workspace",
+        "qiime_tools_peek-mcp-server:latest"
+      ]
+    }
+  }
+}
+====================
+Server path mcp-servers/mcp_qiime_tools_inspect_metadata
+Succesfully created a gemini-2.5-pro model
+Generated requirements.txt using pipreqs
+Generated environment.yaml using pipreqs
+Add the following onto your Claude Configuration json file to run the MCP server:
+====================
+{
+  "mcpServers": {
+    "qiime_tools_inspect_metadata": {
+      "command": "docker",
+      "args": [
+        "run",
+        "--rm",
+        "-i",
+        "-v",
+        "/local/path/qiime_tools_inspect_metadata/data:/app/workspace",
+        "qiime_tools_inspect_metadata-mcp-server:latest"
+      ]
+    }
+  }
+}
+====================
+Server path mcp-servers/mcp_qiime_tools_cast_metadata
+Succesfully created a gemini-2.5-pro model
+generate2
+Generated requirements.txt using pipreqs
+Generated environment.yaml using pipreqs
+Add the following onto your Claude Configuration json file to run the MCP server:
+====================
+{
+  "mcpServers": {
+    "qiime_tools_cast_metadata": {
+      "command": "docker",
+      "args": [
+        "run",
+        "--rm",
+        "-i",
+        "-v",
+        "/local/path/qiime_tools_cast_metadata/data:/app/workspace",
+        "qiime_tools_cast_metadata-mcp-server:latest"
+      ]
+    }
+  }
+}
+====================
+Server path mcp-servers/mcp_qiime_tools_citations
+Succesfully created a gemini-2.5-pro model
+Generated requirements.txt using pipreqs
+Generated environment.yaml using pipreqs
+Add the following onto your Claude Configuration json file to run the MCP server:
+====================
+{
+  "mcpServers": {
+    "qiime_tools_citations": {
+      "command": "docker",
+      "args": [
+        "run",
+        "--rm",
+        "-i",
+        "-v",
+        "/local/path/qiime_tools_citations/data:/app/workspace",
+        "qiime_tools_citations-mcp-server:latest"
+      ]
+    }
+  }
+}
+====================
+Server path mcp-servers/mcp_qiime_tools_validate
+Succesfully created a gemini-2.5-pro model
+Generated requirements.txt using pipreqs
+Generated environment.yaml using pipreqs
+Add the following onto your Claude Configuration json file to run the MCP server:
+====================
+{
+  "mcpServers": {
+    "qiime_tools_validate": {
+      "command": "docker",
+      "args": [
+        "run",
+        "--rm",
+        "-i",
+        "-v",
+        "/local/path/qiime_tools_validate/data:/app/workspace",
+        "qiime_tools_validate-mcp-server:latest"
+      ]
+    }
+  }
+}
+====================
+Processing: Demux & QC...
+Server path mcp-servers/mcp_qiime_demux_emp_single
+Succesfully created a gemini-2.5-pro model
+Generated requirements.txt using pipreqs
+Generated environment.yaml using pipreqs
+Add the following onto your Claude Configuration json file to run the MCP server:
+====================
+{
+  "mcpServers": {
+    "qiime_demux_emp_single": {
+      "command": "docker",
+      "args": [
+        "run",
+        "--rm",
+        "-i",
+        "-v",
+        "/local/path/qiime_demux_emp_single/data:/app/workspace",
+        "qiime_demux_emp_single-mcp-server:latest"
+      ]
+    }
+  }
+}
+====================
+Server path mcp-servers/mcp_qiime_demux_emp_paired
+Succesfully created a gemini-2.5-pro model
+Generated requirements.txt using pipreqs
+Generated environment.yaml using pipreqs
+Add the following onto your Claude Configuration json file to run the MCP server:
+====================
+{
+  "mcpServers": {
+    "qiime_demux_emp_paired": {
+      "command": "docker",
+      "args": [
+        "run",
+        "--rm",
+        "-i",
+        "-v",
+        "/local/path/qiime_demux_emp_paired/data:/app/workspace",
+        "qiime_demux_emp_paired-mcp-server:latest"
+      ]
+    }
+  }
+}
+====================
+Server path mcp-servers/mcp_qiime_demux_summarize
+Succesfully created a gemini-2.5-pro model
+generate2
+Generated requirements.txt using pipreqs
+Generated environment.yaml using pipreqs
+Add the following onto your Claude Configuration json file to run the MCP server:
+====================
+{
+  "mcpServers": {
+    "qiime_demux_summarize": {
+      "command": "docker",
+      "args": [
+        "run",
+        "--rm",
+        "-i",
+        "-v",
+        "/local/path/qiime_demux_summarize/data:/app/workspace",
+        "qiime_demux_summarize-mcp-server:latest"
+      ]
+    }
+  }
+}
+====================
+Server path mcp-servers/mcp_qiime_demux_filter_samples
+Succesfully created a gemini-2.5-pro model
+generate2
+Generated requirements.txt using pipreqs
+Generated environment.yaml using pipreqs
+Add the following onto your Claude Configuration json file to run the MCP server:
+====================
+{
+  "mcpServers": {
+    "qiime_demux_filter_samples": {
+      "command": "docker",
+      "args": [
+        "run",
+        "--rm",
+        "-i",
+        "-v",
+        "/local/path/qiime_demux_filter_samples/data:/app/workspace",
+        "qiime_demux_filter_samples-mcp-server:latest"
+      ]
+    }
+  }
+}
+====================
+Server path mcp-servers/mcp_qiime_cutadapt_trim_single
+Succesfully created a gemini-2.5-pro model
+generate2
+Generated requirements.txt using pipreqs
+Generated environment.yaml using pipreqs
+Add the following onto your Claude Configuration json file to run the MCP server:
+====================
+{
+  "mcpServers": {
+    "qiime_cutadapt_trim_single": {
+      "command": "docker",
+      "args": [
+        "run",
+        "--rm",
+        "-i",
+        "-v",
+        "/local/path/qiime_cutadapt_trim_single/data:/app/workspace",
+        "qiime_cutadapt_trim_single-mcp-server:latest"
+      ]
+    }
+  }
+}
+====================
+Server path mcp-servers/mcp_qiime_cutadapt_trim_paired
+Succesfully created a gemini-2.5-pro model
+generate2
+Generated requirements.txt using pipreqs
+Generated environment.yaml using pipreqs
+Add the following onto your Claude Configuration json file to run the MCP server:
+====================
+{
+  "mcpServers": {
+    "qiime_cutadapt_trim_paired": {
+      "command": "docker",
+      "args": [
+        "run",
+        "--rm",
+        "-i",
+        "-v",
+        "/local/path/qiime_cutadapt_trim_paired/data:/app/workspace",
+        "qiime_cutadapt_trim_paired-mcp-server:latest"
+      ]
+    }
+  }
+}
+====================
+Server path mcp-servers/mcp_qiime_cutadapt_demux_single
+Succesfully created a gemini-2.5-pro model
+generate2
+Generated requirements.txt using pipreqs
+Generated environment.yaml using pipreqs
+Add the following onto your Claude Configuration json file to run the MCP server:
+====================
+{
+  "mcpServers": {
+    "qiime_cutadapt_demux_single": {
+      "command": "docker",
+      "args": [
+        "run",
+        "--rm",
+        "-i",
+        "-v",
+        "/local/path/qiime_cutadapt_demux_single/data:/app/workspace",
+        "qiime_cutadapt_demux_single-mcp-server:latest"
+      ]
+    }
+  }
+}
+====================
+Server path mcp-servers/mcp_qiime_cutadapt_demux_paired
+Succesfully created a gemini-2.5-pro model
+generate2
+Generated requirements.txt using pipreqs
+Generated environment.yaml using pipreqs
+Add the following onto your Claude Configuration json file to run the MCP server:
+====================
+{
+  "mcpServers": {
+    "qiime_cutadapt_demux_paired": {
+      "command": "docker",
+      "args": [
+        "run",
+        "--rm",
+        "-i",
+        "-v",
+        "/local/path/qiime_cutadapt_demux_paired/data:/app/workspace",
+        "qiime_cutadapt_demux_paired-mcp-server:latest"
+      ]
+    }
+  }
+}
+====================
+Server path mcp-servers/mcp_qiime_quality_filter_q_score
+Succesfully created a gemini-2.5-pro model
+generate2
+Generated requirements.txt using pipreqs
+Generated environment.yaml using pipreqs
+Add the following onto your Claude Configuration json file to run the MCP server:
+====================
+{
+  "mcpServers": {
+    "qiime_quality_filter_q_score": {
+      "command": "docker",
+      "args": [
+        "run",
+        "--rm",
+        "-i",
+        "-v",
+        "/local/path/qiime_quality_filter_q_score/data:/app/workspace",
+        "qiime_quality_filter_q_score-mcp-server:latest"
+      ]
+    }
+  }
+}
+====================
+Processing: Denoising...
+Server path mcp-servers/mcp_qiime_dada2_denoise_single
+Succesfully created a gemini-2.5-pro model
+generate2
+Generated requirements.txt using pipreqs
+Generated environment.yaml using pipreqs
+Add the following onto your Claude Configuration json file to run the MCP server:
+====================
+{
+  "mcpServers": {
+    "qiime_dada2_denoise_single": {
+      "command": "docker",
+      "args": [
+        "run",
+        "--rm",
+        "-i",
+        "-v",
+        "/local/path/qiime_dada2_denoise_single/data:/app/workspace",
+        "qiime_dada2_denoise_single-mcp-server:latest"
+      ]
+    }
+  }
+}
+====================
+Server path mcp-servers/mcp_qiime_dada2_denoise_paired
+Succesfully created a gemini-2.5-pro model
+generate2
+Generated requirements.txt using pipreqs
+Generated environment.yaml using pipreqs
+Add the following onto your Claude Configuration json file to run the MCP server:
+====================
+{
+  "mcpServers": {
+    "qiime_dada2_denoise_paired": {
+      "command": "docker",
+      "args": [
+        "run",
+        "--rm",
+        "-i",
+        "-v",
+        "/local/path/qiime_dada2_denoise_paired/data:/app/workspace",
+        "qiime_dada2_denoise_paired-mcp-server:latest"
+      ]
+    }
+  }
+}
+====================
+Server path mcp-servers/mcp_qiime_dada2_denoise_pyro
+Succesfully created a gemini-2.5-pro model
+generate2
+Generated requirements.txt using pipreqs
+Generated environment.yaml using pipreqs
+Add the following onto your Claude Configuration json file to run the MCP server:
+====================
+{
+  "mcpServers": {
+    "qiime_dada2_denoise_pyro": {
+      "command": "docker",
+      "args": [
+        "run",
+        "--rm",
+        "-i",
+        "-v",
+        "/local/path/qiime_dada2_denoise_pyro/data:/app/workspace",
+        "qiime_dada2_denoise_pyro-mcp-server:latest"
+      ]
+    }
+  }
+}
+====================
+Server path mcp-servers/mcp_qiime_deblur_denoise_16S
+Succesfully created a gemini-2.5-pro model
+generate2
+Generated requirements.txt using pipreqs
+Generated environment.yaml using pipreqs
+Add the following onto your Claude Configuration json file to run the MCP server:
+====================
+{
+  "mcpServers": {
+    "qiime_deblur_denoise_16S": {
+      "command": "docker",
+      "args": [
+        "run",
+        "--rm",
+        "-i",
+        "-v",
+        "/local/path/qiime_deblur_denoise_16S/data:/app/workspace",
+        "qiime_deblur_denoise_16S-mcp-server:latest"
+      ]
+    }
+  }
+}
+====================
+Server path mcp-servers/mcp_qiime_deblur_denoise_other
+Succesfully created a gemini-2.5-pro model
+Generated requirements.txt using pipreqs
+Generated environment.yaml using pipreqs
+Add the following onto your Claude Configuration json file to run the MCP server:
+====================
+{
+  "mcpServers": {
+    "qiime_deblur_denoise_other": {
+      "command": "docker",
+      "args": [
+        "run",
+        "--rm",
+        "-i",
+        "-v",
+        "/local/path/qiime_deblur_denoise_other/data:/app/workspace",
+        "qiime_deblur_denoise_other-mcp-server:latest"
+      ]
+    }
+  }
+}
+====================
+Server path mcp-servers/mcp_qiime_deblur_visualize_stats
+Succesfully created a gemini-2.5-pro model
+Generated requirements.txt using pipreqs
+Generated environment.yaml using pipreqs
+Add the following onto your Claude Configuration json file to run the MCP server:
+====================
+{
+  "mcpServers": {
+    "qiime_deblur_visualize_stats": {
+      "command": "docker",
+      "args": [
+        "run",
+        "--rm",
+        "-i",
+        "-v",
+        "/local/path/qiime_deblur_visualize_stats/data:/app/workspace",
+        "qiime_deblur_visualize_stats-mcp-server:latest"
+      ]
+    }
+  }
+}
+====================
+Server path mcp-servers/mcp_qiime_vsearch_cluster_features_de_novo
+Succesfully created a gemini-2.5-pro model
+generate2
+Generated requirements.txt using pipreqs
+Generated environment.yaml using pipreqs
+Add the following onto your Claude Configuration json file to run the MCP server:
+====================
+{
+  "mcpServers": {
+    "qiime_vsearch_cluster_features_de_novo": {
+      "command": "docker",
+      "args": [
+        "run",
+        "--rm",
+        "-i",
+        "-v",
+        "/local/path/qiime_vsearch_cluster_features_de_novo/data:/app/workspace",
+        "qiime_vsearch_cluster_features_de_novo-mcp-server:latest"
+      ]
+    }
+  }
+}
+====================
+Server path mcp-servers/mcp_qiime_vsearch_cluster_features_closed_reference
+Succesfully created a gemini-2.5-pro model
+Generated requirements.txt using pipreqs
+Generated environment.yaml using pipreqs
+Add the following onto your Claude Configuration json file to run the MCP server:
+====================
+{
+  "mcpServers": {
+    "qiime_vsearch_cluster_features_closed_reference": {
+      "command": "docker",
+      "args": [
+        "run",
+        "--rm",
+        "-i",
+        "-v",
+        "/local/path/qiime_vsearch_cluster_features_closed_reference/data:/app/workspace",
+        "qiime_vsearch_cluster_features_closed_reference-mcp-server:latest"
+      ]
+    }
+  }
+}
+====================
+Server path mcp-servers/mcp_qiime_vsearch_cluster_features_open_reference
+Succesfully created a gemini-2.5-pro model
+Generated requirements.txt using pipreqs
+Generated environment.yaml using pipreqs
+Add the following onto your Claude Configuration json file to run the MCP server:
+====================
+{
+  "mcpServers": {
+    "qiime_vsearch_cluster_features_open_reference": {
+      "command": "docker",
+      "args": [
+        "run",
+        "--rm",
+        "-i",
+        "-v",
+        "/local/path/qiime_vsearch_cluster_features_open_reference/data:/app/workspace",
+        "qiime_vsearch_cluster_features_open_reference-mcp-server:latest"
+      ]
+    }
+  }
+}
+====================
+Server path mcp-servers/mcp_qiime_vsearch_dereplicate_sequences
+Succesfully created a gemini-2.5-pro model
+Generated requirements.txt using pipreqs
+Generated environment.yaml using pipreqs
+Add the following onto your Claude Configuration json file to run the MCP server:
+====================
+{
+  "mcpServers": {
+    "qiime_vsearch_dereplicate_sequences": {
+      "command": "docker",
+      "args": [
+        "run",
+        "--rm",
+        "-i",
+        "-v",
+        "/local/path/qiime_vsearch_dereplicate_sequences/data:/app/workspace",
+        "qiime_vsearch_dereplicate_sequences-mcp-server:latest"
+      ]
+    }
+  }
+}
+====================
+Processing: Phylogeny...
+Server path mcp-servers/mcp_qiime_alignment_mafft
+Succesfully created a gemini-2.5-pro model
+generate2
+Generated requirements.txt using pipreqs
+Generated environment.yaml using pipreqs
+Add the following onto your Claude Configuration json file to run the MCP server:
+====================
+{
+  "mcpServers": {
+    "qiime_alignment_mafft": {
+      "command": "docker",
+      "args": [
+        "run",
+        "--rm",
+        "-i",
+        "-v",
+        "/local/path/qiime_alignment_mafft/data:/app/workspace",
+        "qiime_alignment_mafft-mcp-server:latest"
+      ]
+    }
+  }
+}
+====================
+Server path mcp-servers/mcp_qiime_alignment_mask
+Succesfully created a gemini-2.5-pro model
+generate2
+Generated requirements.txt using pipreqs
+Generated environment.yaml using pipreqs
+Add the following onto your Claude Configuration json file to run the MCP server:
+====================
+{
+  "mcpServers": {
+    "qiime_alignment_mask": {
+      "command": "docker",
+      "args": [
+        "run",
+        "--rm",
+        "-i",
+        "-v",
+        "/local/path/qiime_alignment_mask/data:/app/workspace",
+        "qiime_alignment_mask-mcp-server:latest"
+      ]
+    }
+  }
+}
+====================
+Server path mcp-servers/mcp_qiime_phylogeny_fasttree
+Succesfully created a gemini-2.5-pro model
+generate2
+Generated requirements.txt using pipreqs
+Generated environment.yaml using pipreqs
+Add the following onto your Claude Configuration json file to run the MCP server:
+====================
+{
+  "mcpServers": {
+    "qiime_phylogeny_fasttree": {
+      "command": "docker",
+      "args": [
+        "run",
+        "--rm",
+        "-i",
+        "-v",
+        "/local/path/qiime_phylogeny_fasttree/data:/app/workspace",
+        "qiime_phylogeny_fasttree-mcp-server:latest"
+      ]
+    }
+  }
+}
+====================
+Server path mcp-servers/mcp_qiime_phylogeny_raxml
+Succesfully created a gemini-2.5-pro model
+generate2
+Generated requirements.txt using pipreqs
+Generated environment.yaml using pipreqs
+Add the following onto your Claude Configuration json file to run the MCP server:
+====================
+{
+  "mcpServers": {
+    "qiime_phylogeny_raxml": {
+      "command": "docker",
+      "args": [
+        "run",
+        "--rm",
+        "-i",
+        "-v",
+        "/local/path/qiime_phylogeny_raxml/data:/app/workspace",
+        "qiime_phylogeny_raxml-mcp-server:latest"
+      ]
+    }
+  }
+}
+====================
+Server path mcp-servers/mcp_qiime_phylogeny_iqtree
+Succesfully created a gemini-2.5-pro model
+generate2
+Generated requirements.txt using pipreqs
+Generated environment.yaml using pipreqs
+Add the following onto your Claude Configuration json file to run the MCP server:
+====================
+{
+  "mcpServers": {
+    "qiime_phylogeny_iqtree": {
+      "command": "docker",
+      "args": [
+        "run",
+        "--rm",
+        "-i",
+        "-v",
+        "/local/path/qiime_phylogeny_iqtree/data:/app/workspace",
+        "qiime_phylogeny_iqtree-mcp-server:latest"
+      ]
+    }
+  }
+}
+====================
+Server path mcp-servers/mcp_qiime_phylogeny_midpoint_root
+Succesfully created a gemini-2.5-pro model
+generate2
+Generated requirements.txt using pipreqs
+Generated environment.yaml using pipreqs
+Add the following onto your Claude Configuration json file to run the MCP server:
+====================
+{
+  "mcpServers": {
+    "qiime_phylogeny_midpoint_root": {
+      "command": "docker",
+      "args": [
+        "run",
+        "--rm",
+        "-i",
+        "-v",
+        "/local/path/qiime_phylogeny_midpoint_root/data:/app/workspace",
+        "qiime_phylogeny_midpoint_root-mcp-server:latest"
+      ]
+    }
+  }
+}
+====================
+Server path mcp-servers/mcp_qiime_fragment_insertion_sepp
+Succesfully created a gemini-2.5-pro model
+generate2
+Generated requirements.txt using pipreqs
+Generated environment.yaml using pipreqs
+Add the following onto your Claude Configuration json file to run the MCP server:
+====================
+{
+  "mcpServers": {
+    "qiime_fragment_insertion_sepp": {
+      "command": "docker",
+      "args": [
+        "run",
+        "--rm",
+        "-i",
+        "-v",
+        "/local/path/qiime_fragment_insertion_sepp/data:/app/workspace",
+        "qiime_fragment_insertion_sepp-mcp-server:latest"
+      ]
+    }
+  }
+}
+====================
+Processing: Taxonomy...
+Server path mcp-servers/mcp_qiime_feature_classifier_classify_sklearn
+Succesfully created a gemini-2.5-pro model
+generate2
+Generated requirements.txt using pipreqs
+Generated environment.yaml using pipreqs
+Add the following onto your Claude Configuration json file to run the MCP server:
+====================
+{
+  "mcpServers": {
+    "qiime_feature_classifier_classify_sklearn": {
+      "command": "docker",
+      "args": [
+        "run",
+        "--rm",
+        "-i",
+        "-v",
+        "/local/path/qiime_feature_classifier_classify_sklearn/data:/app/workspace",
+        "qiime_feature_classifier_classify_sklearn-mcp-server:latest"
+      ]
+    }
+  }
+}
+====================
+Server path mcp-servers/mcp_qiime_feature_classifier_classify_consensus_blast
+Succesfully created a gemini-2.5-pro model
+generate2
+Generated requirements.txt using pipreqs
+Generated environment.yaml using pipreqs
+Add the following onto your Claude Configuration json file to run the MCP server:
+====================
+{
+  "mcpServers": {
+    "qiime_feature_classifier_classify_consensus_blast": {
+      "command": "docker",
+      "args": [
+        "run",
+        "--rm",
+        "-i",
+        "-v",
+        "/local/path/qiime_feature_classifier_classify_consensus_blast/data:/app/workspace",
+        "qiime_feature_classifier_classify_consensus_blast-mcp-server:latest"
+      ]
+    }
+  }
+}
+====================
+Server path mcp-servers/mcp_qiime_feature_classifier_classify_consensus_vsearch
+Succesfully created a gemini-2.5-pro model
+generate2
+Generated requirements.txt using pipreqs
+Generated environment.yaml using pipreqs
+Add the following onto your Claude Configuration json file to run the MCP server:
+====================
+{
+  "mcpServers": {
+    "qiime_feature_classifier_classify_consensus_vsearch": {
+      "command": "docker",
+      "args": [
+        "run",
+        "--rm",
+        "-i",
+        "-v",
+        "/local/path/qiime_feature_classifier_classify_consensus_vsearch/data:/app/workspace",
+        "qiime_feature_classifier_classify_consensus_vsearch-mcp-server:latest"
+      ]
+    }
+  }
+}
+====================
+Server path mcp-servers/mcp_qiime_feature_classifier_fit_classifier_naive_bayes
+Succesfully created a gemini-2.5-pro model
+generate2
+Generated requirements.txt using pipreqs
+Generated environment.yaml using pipreqs
+Add the following onto your Claude Configuration json file to run the MCP server:
+====================
+{
+  "mcpServers": {
+    "qiime_feature_classifier_fit_classifier_naive_bayes": {
+      "command": "docker",
+      "args": [
+        "run",
+        "--rm",
+        "-i",
+        "-v",
+        "/local/path/qiime_feature_classifier_fit_classifier_naive_bayes/data:/app/workspace",
+        "qiime_feature_classifier_fit_classifier_naive_bayes-mcp-server:latest"
+      ]
+    }
+  }
+}
+====================
+Server path mcp-servers/mcp_qiime_taxa_barplot
+Succesfully created a gemini-2.5-pro model
+generate2
+Generated requirements.txt using pipreqs
+Generated environment.yaml using pipreqs
+Add the following onto your Claude Configuration json file to run the MCP server:
+====================
+{
+  "mcpServers": {
+    "qiime_taxa_barplot": {
+      "command": "docker",
+      "args": [
+        "run",
+        "--rm",
+        "-i",
+        "-v",
+        "/local/path/qiime_taxa_barplot/data:/app/workspace",
+        "qiime_taxa_barplot-mcp-server:latest"
+      ]
+    }
+  }
+}
+====================
+Server path mcp-servers/mcp_qiime_taxa_filter_table
+Succesfully created a gemini-2.5-pro model
+generate2
+Generated requirements.txt using pipreqs
+Generated environment.yaml using pipreqs
+Add the following onto your Claude Configuration json file to run the MCP server:
+====================
+{
+  "mcpServers": {
+    "qiime_taxa_filter_table": {
+      "command": "docker",
+      "args": [
+        "run",
+        "--rm",
+        "-i",
+        "-v",
+        "/local/path/qiime_taxa_filter_table/data:/app/workspace",
+        "qiime_taxa_filter_table-mcp-server:latest"
+      ]
+    }
+  }
+}
+====================
+Server path mcp-servers/mcp_qiime_taxa_filter_seqs
+Succesfully created a gemini-2.5-pro model
+Generated requirements.txt using pipreqs
+Generated environment.yaml using pipreqs
+Add the following onto your Claude Configuration json file to run the MCP server:
+====================
+{
+  "mcpServers": {
+    "qiime_taxa_filter_seqs": {
+      "command": "docker",
+      "args": [
+        "run",
+        "--rm",
+        "-i",
+        "-v",
+        "/local/path/qiime_taxa_filter_seqs/data:/app/workspace",
+        "qiime_taxa_filter_seqs-mcp-server:latest"
+      ]
+    }
+  }
+}
+====================
+Server path mcp-servers/mcp_qiime_taxa_collapse
+Succesfully created a gemini-2.5-pro model
+generate2
+Generated requirements.txt using pipreqs
+Generated environment.yaml using pipreqs
+Add the following onto your Claude Configuration json file to run the MCP server:
+====================
+{
+  "mcpServers": {
+    "qiime_taxa_collapse": {
+      "command": "docker",
+      "args": [
+        "run",
+        "--rm",
+        "-i",
+        "-v",
+        "/local/path/qiime_taxa_collapse/data:/app/workspace",
+        "qiime_taxa_collapse-mcp-server:latest"
+      ]
+    }
+  }
+}
+====================
+Processing: Diversity...
+Server path mcp-servers/mcp_qiime_diversity_alpha
+Succesfully created a gemini-2.5-pro model
+Generated requirements.txt using pipreqs
+Generated environment.yaml using pipreqs
+Add the following onto your Claude Configuration json file to run the MCP server:
+====================
+{
+  "mcpServers": {
+    "qiime_diversity_alpha": {
+      "command": "docker",
+      "args": [
+        "run",
+        "--rm",
+        "-i",
+        "-v",
+        "/local/path/qiime_diversity_alpha/data:/app/workspace",
+        "qiime_diversity_alpha-mcp-server:latest"
+      ]
+    }
+  }
+}
+====================
+Server path mcp-servers/mcp_qiime_diversity_beta
+Succesfully created a gemini-2.5-pro model
+Generated requirements.txt using pipreqs
+Generated environment.yaml using pipreqs
+Add the following onto your Claude Configuration json file to run the MCP server:
+====================
+{
+  "mcpServers": {
+    "qiime_diversity_beta": {
+      "command": "docker",
+      "args": [
+        "run",
+        "--rm",
+        "-i",
+        "-v",
+        "/local/path/qiime_diversity_beta/data:/app/workspace",
+        "qiime_diversity_beta-mcp-server:latest"
+      ]
+    }
+  }
+}
+====================
+Server path mcp-servers/mcp_qiime_diversity_alpha_phylogenetic
+Succesfully created a gemini-2.5-pro model
+generate2
+Generated requirements.txt using pipreqs
+Generated environment.yaml using pipreqs
+Add the following onto your Claude Configuration json file to run the MCP server:
+====================
+{
+  "mcpServers": {
+    "qiime_diversity_alpha_phylogenetic": {
+      "command": "docker",
+      "args": [
+        "run",
+        "--rm",
+        "-i",
+        "-v",
+        "/local/path/qiime_diversity_alpha_phylogenetic/data:/app/workspace",
+        "qiime_diversity_alpha_phylogenetic-mcp-server:latest"
+      ]
+    }
+  }
+}
+====================
+Server path mcp-servers/mcp_qiime_diversity_beta_phylogenetic
+Succesfully created a gemini-2.5-pro model
+generate2
+Generated requirements.txt using pipreqs
+Generated environment.yaml using pipreqs
+Add the following onto your Claude Configuration json file to run the MCP server:
+====================
+{
+  "mcpServers": {
+    "qiime_diversity_beta_phylogenetic": {
+      "command": "docker",
+      "args": [
+        "run",
+        "--rm",
+        "-i",
+        "-v",
+        "/local/path/qiime_diversity_beta_phylogenetic/data:/app/workspace",
+        "qiime_diversity_beta_phylogenetic-mcp-server:latest"
+      ]
+    }
+  }
+}
+====================
+Server path mcp-servers/mcp_qiime_diversity_core_metrics_phylogenetic
+Succesfully created a gemini-2.5-pro model
+generate2
+Generated requirements.txt using pipreqs
+Generated environment.yaml using pipreqs
+Add the following onto your Claude Configuration json file to run the MCP server:
+====================
+{
+  "mcpServers": {
+    "qiime_diversity_core_metrics_phylogenetic": {
+      "command": "docker",
+      "args": [
+        "run",
+        "--rm",
+        "-i",
+        "-v",
+        "/local/path/qiime_diversity_core_metrics_phylogenetic/data:/app/workspace",
+        "qiime_diversity_core_metrics_phylogenetic-mcp-server:latest"
+      ]
+    }
+  }
+}
+====================
+Server path mcp-servers/mcp_qiime_diversity_lib_shannon
+Succesfully created a gemini-2.5-pro model
+generate2
+Generated requirements.txt using pipreqs
+Generated environment.yaml using pipreqs
+Add the following onto your Claude Configuration json file to run the MCP server:
+====================
+{
+  "mcpServers": {
+    "qiime_diversity_lib_shannon": {
+      "command": "docker",
+      "args": [
+        "run",
+        "--rm",
+        "-i",
+        "-v",
+        "/local/path/qiime_diversity_lib_shannon/data:/app/workspace",
+        "qiime_diversity_lib_shannon-mcp-server:latest"
+      ]
+    }
+  }
+}
+====================
+Server path mcp-servers/mcp_qiime_diversity_lib_faith_pd
+Succesfully created a gemini-2.5-pro model
+generate2
+Generated requirements.txt using pipreqs
+Generated environment.yaml using pipreqs
+Add the following onto your Claude Configuration json file to run the MCP server:
+====================
+{
+  "mcpServers": {
+    "qiime_diversity_lib_faith_pd": {
+      "command": "docker",
+      "args": [
+        "run",
+        "--rm",
+        "-i",
+        "-v",
+        "/local/path/qiime_diversity_lib_faith_pd/data:/app/workspace",
+        "qiime_diversity_lib_faith_pd-mcp-server:latest"
+      ]
+    }
+  }
+}
+====================
+Server path mcp-servers/mcp_qiime_diversity_lib_unifrac
+Succesfully created a gemini-2.5-pro model
+generate2
+Generated requirements.txt using pipreqs
+Generated environment.yaml using pipreqs
+Add the following onto your Claude Configuration json file to run the MCP server:
+====================
+{
+  "mcpServers": {
+    "qiime_diversity_lib_unifrac": {
+      "command": "docker",
+      "args": [
+        "run",
+        "--rm",
+        "-i",
+        "-v",
+        "/local/path/qiime_diversity_lib_unifrac/data:/app/workspace",
+        "qiime_diversity_lib_unifrac-mcp-server:latest"
+      ]
+    }
+  }
+}
+====================
+Server path mcp-servers/mcp_qiime_emperor_plot
+Succesfully created a gemini-2.5-pro model
+generate2
+Generated requirements.txt using pipreqs
+Generated environment.yaml using pipreqs
+Add the following onto your Claude Configuration json file to run the MCP server:
+====================
+{
+  "mcpServers": {
+    "qiime_emperor_plot": {
+      "command": "docker",
+      "args": [
+        "run",
+        "--rm",
+        "-i",
+        "-v",
+        "/local/path/qiime_emperor_plot/data:/app/workspace",
+        "qiime_emperor_plot-mcp-server:latest"
+      ]
+    }
+  }
+}
+====================
+Server path mcp-servers/mcp_qiime_emperor_biplot
+Succesfully created a gemini-2.5-pro model
+generate2
+Generated requirements.txt using pipreqs
+Generated environment.yaml using pipreqs
+Add the following onto your Claude Configuration json file to run the MCP server:
+====================
+{
+  "mcpServers": {
+    "qiime_emperor_biplot": {
+      "command": "docker",
+      "args": [
+        "run",
+        "--rm",
+        "-i",
+        "-v",
+        "/local/path/qiime_emperor_biplot/data:/app/workspace",
+        "qiime_emperor_biplot-mcp-server:latest"
+      ]
+    }
+  }
+}
+====================
+Processing: Stats & ML...
+Server path mcp-servers/mcp_qiime_composition_add_pseudocount
+Succesfully created a gemini-2.5-pro model
+generate2
+Generated requirements.txt using pipreqs
+Generated environment.yaml using pipreqs
+Add the following onto your Claude Configuration json file to run the MCP server:
+====================
+{
+  "mcpServers": {
+    "qiime_composition_add_pseudocount": {
+      "command": "docker",
+      "args": [
+        "run",
+        "--rm",
+        "-i",
+        "-v",
+        "/local/path/qiime_composition_add_pseudocount/data:/app/workspace",
+        "qiime_composition_add_pseudocount-mcp-server:latest"
+      ]
+    }
+  }
+}
+====================
+Server path mcp-servers/mcp_qiime_composition_ancom
+Succesfully created a gemini-2.5-pro model
+Generated requirements.txt using pipreqs
+Generated environment.yaml using pipreqs
+Add the following onto your Claude Configuration json file to run the MCP server:
+====================
+{
+  "mcpServers": {
+    "qiime_composition_ancom": {
+      "command": "docker",
+      "args": [
+        "run",
+        "--rm",
+        "-i",
+        "-v",
+        "/local/path/qiime_composition_ancom/data:/app/workspace",
+        "qiime_composition_ancom-mcp-server:latest"
+      ]
+    }
+  }
+}
+====================
+Server path mcp-servers/mcp_qiime_composition_ancombc
+Succesfully created a gemini-2.5-pro model
+generate2
+Generated requirements.txt using pipreqs
+Generated environment.yaml using pipreqs
+Add the following onto your Claude Configuration json file to run the MCP server:
+====================
+{
+  "mcpServers": {
+    "qiime_composition_ancombc": {
+      "command": "docker",
+      "args": [
+        "run",
+        "--rm",
+        "-i",
+        "-v",
+        "/local/path/qiime_composition_ancombc/data:/app/workspace",
+        "qiime_composition_ancombc-mcp-server:latest"
+      ]
+    }
+  }
+}
+====================
+Server path mcp-servers/mcp_qiime_longitudinal_pairwise_differences
+Succesfully created a gemini-2.5-pro model
+generate2
+Generated requirements.txt using pipreqs
+Generated environment.yaml using pipreqs
+Add the following onto your Claude Configuration json file to run the MCP server:
+====================
+{
+  "mcpServers": {
+    "qiime_longitudinal_pairwise_differences": {
+      "command": "docker",
+      "args": [
+        "run",
+        "--rm",
+        "-i",
+        "-v",
+        "/local/path/qiime_longitudinal_pairwise_differences/data:/app/workspace",
+        "qiime_longitudinal_pairwise_differences-mcp-server:latest"
+      ]
+    }
+  }
+}
+====================
+Server path mcp-servers/mcp_qiime_longitudinal_pairwise_distances
+Succesfully created a gemini-2.5-pro model
+generate2
+Generated requirements.txt using pipreqs
+Generated environment.yaml using pipreqs
+Add the following onto your Claude Configuration json file to run the MCP server:
+====================
+{
+  "mcpServers": {
+    "qiime_longitudinal_pairwise_distances": {
+      "command": "docker",
+      "args": [
+        "run",
+        "--rm",
+        "-i",
+        "-v",
+        "/local/path/qiime_longitudinal_pairwise_distances/data:/app/workspace",
+        "qiime_longitudinal_pairwise_distances-mcp-server:latest"
+      ]
+    }
+  }
+}
+====================
+Server path mcp-servers/mcp_qiime_longitudinal_linear_mixed_effects
+Succesfully created a gemini-2.5-pro model
+generate2
+Generated requirements.txt using pipreqs
+Generated environment.yaml using pipreqs
+Add the following onto your Claude Configuration json file to run the MCP server:
+====================
+{
+  "mcpServers": {
+    "qiime_longitudinal_linear_mixed_effects": {
+      "command": "docker",
+      "args": [
+        "run",
+        "--rm",
+        "-i",
+        "-v",
+        "/local/path/qiime_longitudinal_linear_mixed_effects/data:/app/workspace",
+        "qiime_longitudinal_linear_mixed_effects-mcp-server:latest"
+      ]
+    }
+  }
+}
+====================
+Server path mcp-servers/mcp_qiime_longitudinal_volatility
+Succesfully created a gemini-2.5-pro model
+generate2
+Generated requirements.txt using pipreqs
+Generated environment.yaml using pipreqs
+Add the following onto your Claude Configuration json file to run the MCP server:
+====================
+{
+  "mcpServers": {
+    "qiime_longitudinal_volatility": {
+      "command": "docker",
+      "args": [
+        "run",
+        "--rm",
+        "-i",
+        "-v",
+        "/local/path/qiime_longitudinal_volatility/data:/app/workspace",
+        "qiime_longitudinal_volatility-mcp-server:latest"
+      ]
+    }
+  }
+}
+====================
+Server path mcp-servers/mcp_qiime_sample_classifier_classify_samples
+Succesfully created a gemini-2.5-pro model
+generate2
+Generated requirements.txt using pipreqs
+Generated environment.yaml using pipreqs
+Add the following onto your Claude Configuration json file to run the MCP server:
+====================
+{
+  "mcpServers": {
+    "qiime_sample_classifier_classify_samples": {
+      "command": "docker",
+      "args": [
+        "run",
+        "--rm",
+        "-i",
+        "-v",
+        "/local/path/qiime_sample_classifier_classify_samples/data:/app/workspace",
+        "qiime_sample_classifier_classify_samples-mcp-server:latest"
+      ]
+    }
+  }
+}
+====================
+Server path mcp-servers/mcp_qiime_sample_classifier_regress_samples
+Succesfully created a gemini-2.5-pro model
+generate2
+Generated requirements.txt using pipreqs
+Generated environment.yaml using pipreqs
+Add the following onto your Claude Configuration json file to run the MCP server:
+====================
+{
+  "mcpServers": {
+    "qiime_sample_classifier_regress_samples": {
+      "command": "docker",
+      "args": [
+        "run",
+        "--rm",
+        "-i",
+        "-v",
+        "/local/path/qiime_sample_classifier_regress_samples/data:/app/workspace",
+        "qiime_sample_classifier_regress_samples-mcp-server:latest"
+      ]
+    }
+  }
+}
+====================
+Server path mcp-servers/mcp_qiime_sample_classifier_heatmap
+Succesfully created a gemini-2.5-pro model
+Generated requirements.txt using pipreqs
+Generated environment.yaml using pipreqs
+Add the following onto your Claude Configuration json file to run the MCP server:
+====================
+{
+  "mcpServers": {
+    "qiime_sample_classifier_heatmap": {
+      "command": "docker",
+      "args": [
+        "run",
+        "--rm",
+        "-i",
+        "-v",
+        "/local/path/qiime_sample_classifier_heatmap/data:/app/workspace",
+        "qiime_sample_classifier_heatmap-mcp-server:latest"
+      ]
+    }
+  }
+}
+====================
+Processing: Utils...
+Server path mcp-servers/mcp_qiime_feature_table_summarize
+Succesfully created a gemini-2.5-pro model
+Generated requirements.txt using pipreqs
+Generated environment.yaml using pipreqs
+Add the following onto your Claude Configuration json file to run the MCP server:
+====================
+{
+  "mcpServers": {
+    "qiime_feature_table_summarize": {
+      "command": "docker",
+      "args": [
+        "run",
+        "--rm",
+        "-i",
+        "-v",
+        "/local/path/qiime_feature_table_summarize/data:/app/workspace",
+        "qiime_feature_table_summarize-mcp-server:latest"
+      ]
+    }
+  }
+}
+====================

@@ -66,12 +66,12 @@ def generate_environment_yml(tool_name, server_path):
     """
     return result
 
-def convert_mcptool(tool_name, manual, run_help_command, server_path):    
+def convert_mcptool(tool_name, manual, run_help_command, server_path, model="openai"):
     # parser = argparse.ArgumentParser()
     # bioinfo_tools_ls = ['fastqc','trimmomatic']
     bioinfo_tools_ls = [tool_name]
 
-    converter = BioinfoMCP()
+    converter = BioinfoMCP(model=model)
     for tool in bioinfo_tools_ls:
         conv_result = converter.autogenerate_mcp_tool(tool, manual, run_help_command)
         while not conv_result[0]:
@@ -218,6 +218,8 @@ if __name__ == '__main__':
     parser.add_argument('--run_help_command', type=bool, default=False)
     parser.add_argument('--output_location', type=str)
     parser.add_argument('--is_pipeline', action='store_true', default=False)
+    parser.add_argument('--model', type=str, default='openai', choices=['openai', 'azure', 'gemini'],
+                        help="LLM backend to use: openai, azure, or gemini (default: openai)")
     args = parser.parse_args()
     '''
     if help is False, then manual is the attribute of the tool to access the help docs (ex. fastqc --help; manual ='--help')
@@ -231,7 +233,7 @@ if __name__ == '__main__':
     os.makedirs(app_path, exist_ok=True)
 
     # run the converter
-    convert_mcptool(args.name, args.manual, args.run_help_command, server_path)
+    convert_mcptool(args.name, args.manual, args.run_help_command, server_path, model=args.model)
 
     # Write the requirements.txt
     generate_requirements_with_pipreqs(args.name, server_path)
