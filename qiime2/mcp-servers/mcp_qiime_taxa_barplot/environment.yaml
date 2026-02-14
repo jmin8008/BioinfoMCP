@@ -1,0 +1,10 @@
+
+name: mcp-tool
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - qiime_taxa_barplot
+  - python=3.10
+    

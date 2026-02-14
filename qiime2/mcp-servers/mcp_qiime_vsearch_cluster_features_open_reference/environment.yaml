@@ -1,0 +1,10 @@
+
+name: mcp-tool
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - qiime_vsearch_cluster_features_open_reference
+  - python=3.10
+    

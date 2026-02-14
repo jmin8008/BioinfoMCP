@@ -1,0 +1,10 @@
+
+name: mcp-tool
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - qiime_cutadapt_demux_single
+  - python=3.10
+    

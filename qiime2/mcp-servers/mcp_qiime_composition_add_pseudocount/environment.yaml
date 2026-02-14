@@ -1,0 +1,10 @@
+
+name: mcp-tool
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - qiime_composition_add_pseudocount
+  - python=3.10
+    

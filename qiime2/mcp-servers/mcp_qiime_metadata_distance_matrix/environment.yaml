@@ -1,0 +1,10 @@
+
+name: mcp-tool
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - qiime_metadata_distance_matrix
+  - python=3.10
+    
